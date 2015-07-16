@@ -1,0 +1,100 @@
+html, body  {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #000;
+}
+
+body {
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+video#background-video {
+  display: none;
+}
+
+@media (min-width: 992px) { 
+  body {
+    background: none;
+  }
+
+  video#background-video { 
+    display: block;
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover; 
+  }
+}
+
+
+/* This is the content div. It's positioned on top of the image container.*/
+#content  {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 10; 
+  padding: 80px 0; /* Keep padding-left and padding-right at 0, otherwise you can't use width: 100%. */
+  width: 100%; 
+  height: auto; 
+}
+
+.row-logo {
+  padding-top: 40px;
+  padding-bottom: 240px;
+}
+
+.row-address {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #fff;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.row-content {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.row-content p {
+  text-align: left;
+}
+
+@media (min-width: 992px) { 
+  .row-content .col-left {
+    padding-right: 40px;
+  }
+
+  .row-content .col-right {
+    padding-left: 40px;
+  }
+}
+
+.row-contact {
+  padding-bottom: 40px;
+}
+
+.row-contact a {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.row-contact a:hover {
+  background: #fff;
+  color: #000;
+}
