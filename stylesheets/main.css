@@ -62,7 +62,7 @@ video#background-video {
 
 .row-content {
   font-family: 'Libre Baskerville', serif;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 20px;
   color: #fff;
   padding-bottom: 40px;
@@ -91,8 +91,8 @@ video#background-video {
   color: #fff;
   border: 0px solid #fff;
   border-radius: 0;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .row-contact a:hover {
