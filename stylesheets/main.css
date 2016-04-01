@@ -40,7 +40,7 @@ video#background-video {
   top: 0; 
   left: 0; 
   z-index: 10; 
-  padding: 80px 0; /* Keep padding-left and padding-right at 0, otherwise you can't use width: 100%. */
+  padding: 50px 0; /* Keep padding-left and padding-right at 0, otherwise you can't use width: 100%. */
   width: 100%; 
   height: auto; 
 }
