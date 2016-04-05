@@ -71,6 +71,7 @@ video#background-video {
 
 .row-content p {
   text-align: left;
+  color: #fff;
 }
 
 @media (min-width: 992px) { 
