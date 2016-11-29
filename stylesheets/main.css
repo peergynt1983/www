@@ -97,6 +97,6 @@ video#background-video {
 }
 
 .row-contact a:hover {
-  background: #fff;
+  background: transparent;
   color: #000;
 }
